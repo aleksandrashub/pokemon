@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingConstraints">
+    <LinearLayout
+        android:background="#dc0a2d"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_height="140dp"
+        android:layout_width="match_parent">
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:background="@drawable/title"
+            android:layout_width="340dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center">
+        </ImageView>
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_height="40dp"
+            android:layout_width="match_parent">
+            <LinearLayout
+                android:background="@drawable/corners"
+                android:layout_height="match_parent"
+                android:layout_width="300dp">
+                <ImageButton
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/corners"
+                    android:foreground="@drawable/searchbar"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp">
+                </ImageButton>
+        <EditText
+            android:layout_height="40dp"
+            android:padding="5dip"
+            android:hint="Search"
+            android:layout_width="250dp">
+
+        </EditText>
+            </LinearLayout>
+            <ImageButton
+                android:id="@+id/sortBtn"
+                android:layout_marginLeft="30dp"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:background="@drawable/sortbtn">
+            </ImageButton>
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/bulbazavrBtn"
+                android:layout_gravity="center"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/item1">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/charmanderBtn"
+                android:layout_gravity="center"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/item3">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/squirtleBtn"
+                android:layout_gravity="center"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/item2">
+
+            </ImageButton>
+            </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/butterfreeBtn"
+                android:layout_gravity="center"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/item6">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/pickachuBtn"
+                android:layout_gravity="center"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/item4">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/gastlyBtn"
+                android:layout_gravity="center"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/item5">
+
+            </ImageButton>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/dittoBtn"
+                android:layout_gravity="center"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/item7">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/mew"
+                android:layout_gravity="center"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/item8">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/aron"
+                android:layout_gravity="center"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/item9">
+
+            </ImageButton>
+        </LinearLayout>
+
+        </LinearLayout>
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
